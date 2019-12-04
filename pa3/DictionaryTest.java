@@ -1,0 +1,106 @@
+/*
+ * DictionaryTest.java
+ * Programmer: Tiancheng Fu
+ * CMPS 12B
+ * Date: July 21st, 2018
+ * Cruzid: tfu6
+ * Programming Assignment 3
+ * This java file serve as a test client for the Dictionary ADT while it is under construction.
+ * This file only contain a main() method. This file throughly tested each Dictionary ADT in isolation
+ * before it is used in any application.
+ */
+public class DictionaryTest{
+  public static void main(String[] args){//main() class
+  Dictionary d1= new Dictionary();
+  
+  //d1.insert("1", "One");
+  //d1.insert("2", "Two");
+  //d1.insert("3", "Three");
+  //d1.insert("4", "Four");
+  //d1.insert("5", "Five");
+  //d1.insert("4", "three");//This will cause the DuplicateKeyException
+  //d1.insert("6", "Aa");
+  //d1.insert("8", "Bb");
+  //d1.insert("9", "Cc");
+  //d1.insert("10", "Dd");
+  //d1.insert("11", "Ff");
+  //d1.insert("12", "Ss");
+  
+  //d1.delete("8");
+  //d1.delete("9");
+  //d1.delete("10");
+  //d1.delete("11");
+  //d1.delete("12");
+  //d1.delete("6");
+  
+  //System.out.println("Size: "+d1.size());
+  //System.out.println(d1);
+  //System.out.println("The Value in Key 3 is "+d1.lookup("3"));
+  //d1.insert("2", "One");//This will cause the DuplicateKeyException
+  
+  //d1.delete("1");
+  //d1.delete("2");
+  //d1.delete("4");
+  //System.out.println(d1);
+  //System.out.println("Size: "+d1.size());
+  //if(d1.isEmpty()==true){
+    //System.out.println("Insert test1 failed");
+  //}
+  
+  //d1.makeEmpty();
+  //if(d1.isEmpty() == true){
+  //System.out.println("Dictionary has been Empty");
+  //}else{
+  //System.out.println("makeEmpty() has error");  
+  //}
+  //System.out.println("Size: "+d1.size());
+  //d1.delete("1");//This will cause the KeyNotFoundException
+  //System.out.println(d1.isEmpty());
+  //d1.insert("1", "One");
+  //d1.insert("2", "Two");
+  //d1.insert("4", "Four");
+  //System.out.println(d1);
+  //d1.delete("3");//This will cause the KeyNotFoundException
+  
+  //Testing insert(String key, String value) Dictionary ADT
+  d1.insert("1", "2");
+  d1.insert("2", "3");
+  d1.insert("3", "4");
+  d1.insert("4", "5");
+  d1.insert("5", "6");
+  //d1.insert("3", "three");//This will cause the DuplicateKeyException
+  
+  //Testing size() Dictionary ADT
+  System.out.println("Size: "+d1.size());
+  
+  //Testing toString() Dictionary ADT
+  System.out.println(d1);
+  
+  //Testing lookup(String key) Dictionary ADT
+  System.out.println("The Value in Key 3 is "+d1.lookup("3"));
+  //d1.insert("1", "One");//This will cause the DuplicateKeyException
+  
+  //Testing delete(String key) Dictionary ADT
+  d1.delete("1");
+  d1.delete("2");
+  d1.delete("4");
+  System.out.println(d1);
+  System.out.println("Size: "+d1.size());
+  if(d1.isEmpty()==true){
+    System.out.println("Insert test1 failed");
+  }
+  
+  //Testing makeEmpty() Dictionary ADT
+  d1.makeEmpty();
+  if(d1.isEmpty() == true){
+  System.out.println("Dictionary has been Empty");
+  }else{
+  System.out.println("makeEmpty() has error");  
+  }
+  System.out.println("Size: "+d1.size());
+  //d1.delete("1");//This will cause the KeyNotFoundException
+  System.out.println(d1.isEmpty());
+  System.out.println(d1);
+  //d1.delete("3");//This will cause the KeyNotFoundException
+ }
+}

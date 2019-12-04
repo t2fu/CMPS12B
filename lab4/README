@@ -1,0 +1,16 @@
+Lab Assignment 4
+Programmer: Tiancheng Fu
+Class: CMPS 12M
+Date: July 26th, 2018
+Cruzid: tfu6
+
+All of the files that been submitted:
+
+README
+Makefile
+charType.c
+
+Note: The charType.c allows the user input two command line arguments giving the input and output file names respectively.
+Then the program will classifies the characters on line of the input file into following categories: alphabetic characters (upper or lower case),
+numeric characters (digits 0-9), punctuation, and white space (space, tab, or newline); this classification process will done with
+the void function extract_chars. The specific functions of the methods, files, and codes are listed in the comments.

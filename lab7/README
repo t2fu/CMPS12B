@@ -1,0 +1,20 @@
+Lab Assignment 7
+Programmer: Tiancheng Fu
+Class: CMPS 12M
+Date: August 17th, 2018
+Cruzid: tfu6
+
+All of the files that been submitted:
+
+README
+Makefile
+Dictionary.java
+DictionaryInterface.java
+DuplicateKeyException.java
+KeyNotFoundException.java
+DictionaryClient.java
+
+Note: The submitted files implement a Dictionary ADT in java based on the Binary Search Tree (BST) structure. The Dictionary.java includes
+seven ADT operations implemented by methods. The Dictionary.java file is wrote based on Dictionary.c file on the webpage.
+The DictionaryInterface.java, DuplicateKeyException.java, KeyNotFoundException.java, and DictionaryClient.java are copied and unchanged
+from the codes that provided on the course webpage. The specific functions of the methods, files, and codes are listed in the comments.

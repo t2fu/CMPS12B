@@ -1,0 +1,18 @@
+Lab Assignment 3
+Programmer: Tiancheng Fu
+Class: CMPS 12M
+Date: July 18th, 2018
+Cruzid: tfu6
+
+All of the files that been submitted:
+
+README
+Makefile
+FileReverse.c
+
+Note: The program will allows the user to enter a input and output file. The program will read the words in the input file
+and split the words from the whitespaces and emputy lines in between them. Then the program will 
+print out the words contain in the input file in backward order into the user entered output file.
+The FileReverse.c is built based on the FileReverse.java from Lab Assignment 2 and FileIO.c from the Lab Assignment 3 pdf file.
+The FileReverse.c includes a void type method called stringReverse(), which will reverse the characters of String variable s.
+The specific functions of the methods and codes are listed in the comments.

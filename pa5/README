@@ -1,0 +1,21 @@
+Programming Assignment 5
+Programmer: Tiancheng Fu
+Class: CMPS 12B
+Date: August 14th, 2018
+Cruzid: tfu6
+
+All of the files that been submitted:
+
+README
+Makefile
+Dictionary.c
+DictionaryTest.c
+Dictionary.h
+DictionaryClient.c
+
+Note: The submitted files implement a Dictionary ADT in c based on the hash table structure. The Dictionary.c includes
+seven ADT operations implemented by functions.The DictionaryTest.c file and it isuse to thoroughly test each Dictionary ADT 
+in isolation before they get implement in the client file. The Dictionary.h and DictionaryClient.c are copied and unchanged 
+from the codes that provided on the course webpage. The specific functions of the methods, files, and codes are listed in 
+the comments.
+

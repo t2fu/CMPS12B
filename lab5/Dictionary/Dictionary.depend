@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1533076485 source:c:\users\tea\desktop\cmps12b\lab5\dictionary\dictionary.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"Dictionary.h"
+
+1532930587 c:\users\tea\desktop\cmps12b\lab5\dictionary\dictionary.h
+
+1533076459 source:c:\users\tea\desktop\cmps12b\lab5\dictionary\dictionaryclient.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Dictionary.h"
+

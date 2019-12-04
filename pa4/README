@@ -1,0 +1,25 @@
+Programming Assignment 5
+Programmer: Tiancheng Fu
+Class: CMPS 12B
+Date: August 6th, 2018
+Cruzid: tfu6
+
+All of the files that been submitted:
+
+README
+Makefile
+Simulation.java
+QueueInterface.java
+QueueEmptyException.java
+Queue.java
+QueueTest.java
+Job.java
+
+
+Note: The submitted files implement a Queue ADT in Java based on a linked list data structure. The Simulation.java will use the
+Queue ADT to simulate a set of jobs performed by a set of processors, when there are more jobs than processors,
+and some jobs will have to wait in a queue until it has open space to preforms the jobs. The Queue.java includes
+seven Queue ADT operations implemented by methods. The QueueEmptyException.java define the exception class to be thrown.
+The exception class are subclass of the RuntimeException. The QueueTest file is use to thoroughly test each
+Queue ADT in isolation. The QueueInterface.java and Job.java are copied and unchangedfrom the codes that provided
+on the course webpage. The specific functions of the methods, files, and codes are listed in the comments.

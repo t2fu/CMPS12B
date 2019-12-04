@@ -1,0 +1,23 @@
+Progamming Assignment 3
+Programmer: Tiancheng Fu
+Class: CMPS 12B
+Date: July 21th, 2018
+Cruzid: tfu6
+
+All of the files that been submitted:
+
+README
+Makefile
+Dictionary.java
+DictionaryTest.java
+DuplicateKeyException.java
+KeyNotFoundException.java
+DictionaryInterface.java
+DictionaryClient.java
+
+
+Note: The submitted files implement a Dictionary ADT in Java based on the linked list data structure. The Dictionary.java includes
+seven ADT operations implemented by methods. The DuplicateKeyException.java na keyNotFoundException.java define the two types
+of exception classes to be thrown. Both of these exceptions are subclasses of RuntimeException. The DictionaryTest file and it is
+use to thoroughly test easch Dictionary ADT in isolation. The DictionaryInterface.java and DictionaryClient.java are copied and unchanged
+from the codes that provided on the course webpage. The specific functions of the methods, files, and codes are listed in the comments.

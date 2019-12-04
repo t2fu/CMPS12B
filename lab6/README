@@ -1,0 +1,22 @@
+Lab Assignment 6
+Programmer: Tiancheng Fu
+Class: CMPS 12M
+Date: August 10th, 2018
+Cruzid: tfu6
+
+All of the files that been submitted:
+
+README
+Makefile
+List.java
+ListTest.java
+ListInterface.java
+ListIndexOutOfBoundsException.java
+ListClient.java
+
+Note: The submitted files implement a List ADT in Java based on the linked list data structure and Generics. The List.java includes
+seven List ADT operations implemented by methods. The ListIndexOutOfBoundsException.java define the
+exception class to be thrown. The exception is a subclass of IndexOutOfBoundsException. The ListTest.java file is
+uses to thoroughly test each Dictionary ADT in isolation before it get implement in the client file. The ListInterface.java,
+ListIndexOutOfBoundsException.java, and ListClient.java are copied and unchanged from the codes that provided on the course webpage.
+The specific functions of the methods, files, and codes are listed in the comments.

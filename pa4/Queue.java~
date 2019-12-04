@@ -1,0 +1,29 @@
+public class Queue{
+  
+     private class Node {
+      int item;
+      Node next;
+
+      Node(int x){
+         item = x;
+         next = null;
+      }
+   }
+   // Fields for the IntegerList class
+   private Node head;     // reference to first Node in List
+
+   // constructor for the IntegerList class
+   public Queue(){
+      head = null;
+   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
